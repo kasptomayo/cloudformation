@@ -1,1 +1,3 @@
-'' 
+template-file-path: vpc_subnets_http_servers_alb_template.yaml
+parameters: {}
+tags: {}
