@@ -163,7 +163,7 @@ Resources:
   WebTargetGroup:
     Type: 'AWS::ElasticLoadBalancingV2::TargetGroup'
     Properties:
-      HealthCheckIntervalSeconds: 15
+      HealthCheckIntervalSeconds: 30
       HealthCheckPath: '/index.html'
       HealthCheckProtocol: 'HTTP'
       HealthCheckTimeoutSeconds: 5
